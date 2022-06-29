@@ -21,9 +21,14 @@ under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
    <modelVersion>4.0.0</modelVersion>
 
-   <artifactId>queue</artifactId>
+   <artifactId>jms-producer</artifactId>
    <packaging>jar</packaging>
    <name>ActiveMQ Artemis Proton-J Example</name>
+   <parent>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>artemis-pom</artifactId>
+      <version>2.23.1</version>
+   </parent>
 
    <properties>
       <activemq.basedir>${project.basedir}/../../../..</activemq.basedir>

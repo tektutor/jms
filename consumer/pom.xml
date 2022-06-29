@@ -24,6 +24,11 @@ under the License.
    <artifactId>queue</artifactId>
    <packaging>jar</packaging>
    <name>ActiveMQ Artemis Proton-J Example</name>
+   <parent>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>artemis-pom</artifactId>
+      <version>2.23.1</version>
+   </parent>
 
    <properties>
       <activemq.basedir>${project.basedir}/../../../..</activemq.basedir>
