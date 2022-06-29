@@ -14,7 +14,8 @@ public class Consumer {
 
    public static void main(String[] args) throws Exception {
       Connection connection = null;
-      ConnectionFactory connectionFactory = new JmsConnectionFactory("amqp://localhost:5672");
+      //ConnectionFactory connectionFactory = new JmsConnectionFactory("amqp://localhost:5672");
+      ConnectionFactory connectionFactory = new JmsConnectionFactory("amqp://ex-aao-amqp-0-svc.default.svc.cluster.local:5672");
 
       try {
          connection = connectionFactory.createConnection();
