@@ -45,6 +45,11 @@ under the License.
    <build>
       <plugins>
          <plugin>
+            <groupId>io.fabric8</groupId>
+            <artifactId>fabric8-maven-plugin</artifactId> 
+            <version>4.4.1</version>
+         </plugin>
+         <plugin>
             <groupId>org.apache.activemq</groupId>
             <artifactId>artemis-maven-plugin</artifactId>
             <executions>
